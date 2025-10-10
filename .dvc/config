@@ -1,0 +1,5 @@
+[core]
+    remote = storage
+['remote "storage"']
+    url = s3://sagamo857-test-bucket/dvc_store
+    region = ap-southeast-2
