@@ -9,6 +9,12 @@ Windows에서 `run_gpu_check.bat`을 실행하면 가상환경 생성, 고정 GP
 .\run_gpu_check.bat
 ```
 
+검사 목록은 `models_gpu.json`에서 관리하며 `category` 값으로 구조를 구분합니다.
+
+- `CNN`: ConvNeXt, RepViT, MobileNet, MobileOne, RDNet, FasterNet, EfficientNet
+- `HYBRID`: FastViT, EfficientViT, EdgeNeXt
+- `ATTENTION`: SwiftFormer, TinyViT
+
 Python 3.12 프로젝트 전용 환경에서 timm 분류 모델을 ONNX로 변환하고 검증합니다.
 
 검증 순서:

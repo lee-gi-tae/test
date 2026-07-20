@@ -1,9 +1,16 @@
 [
-  {"model": "ConvNeXt-Tiny", "checkpoint": "convnext_tiny.fb_in1k"},
-  {"model": "ConvNeXt-V2-Tiny", "checkpoint": "convnextv2_tiny.fcmae_ft_in1k"},
-  {"model": "RepViT-M2.3", "checkpoint": "repvit_m2_3.dist_450e_in1k"},
-  {"model": "FastViT-SA36", "checkpoint": "fastvit_sa36.apple_in1k"},
-  {"model": "EfficientViT-L2", "checkpoint": "efficientvit_l2.r224_in1k"},
-  {"model": "MobileNetV4-Conv-Large", "checkpoint": "mobilenetv4_conv_large.e500_r256_in1k"},
-  {"model": "EdgeNeXt-Base", "checkpoint": "edgenext_base.usi_in1k"}
+  {"model": "ConvNeXt-Tiny", "checkpoint": "convnext_tiny.fb_in1k", "category": "CNN"},
+  {"model": "ConvNeXt-V2-Tiny", "checkpoint": "convnextv2_tiny.fcmae_ft_in1k", "category": "CNN"},
+  {"model": "RepViT-M2.3", "checkpoint": "repvit_m2_3.dist_450e_in1k", "category": "CNN"},
+  {"model": "MobileNetV4-Conv-Large", "checkpoint": "mobilenetv4_conv_large.e500_r256_in1k", "category": "CNN"},
+  {"model": "MobileOne-S4", "checkpoint": "mobileone_s4.apple_in1k", "category": "CNN"},
+  {"model": "RDNet-Tiny", "checkpoint": "rdnet_tiny.nv_in1k", "category": "CNN"},
+  {"model": "FasterNet-S", "checkpoint": "fasternet_s.in1k", "category": "CNN"},
+  {"model": "EfficientNet-B4", "checkpoint": "efficientnet_b4.ra2_in1k", "category": "CNN"},
+  {"model": "EfficientNetV2-S", "checkpoint": "tf_efficientnetv2_s.in1k", "category": "CNN"},
+  {"model": "FastViT-SA36", "checkpoint": "fastvit_sa36.apple_in1k", "category": "HYBRID"},
+  {"model": "EfficientViT-L2", "checkpoint": "efficientvit_l2.r224_in1k", "category": "HYBRID"},
+  {"model": "EdgeNeXt-Base", "checkpoint": "edgenext_base.usi_in1k", "category": "HYBRID"},
+  {"model": "SwiftFormer-L1", "checkpoint": "swiftformer_l1.dist_in1k", "category": "ATTENTION"},
+  {"model": "TinyViT-21M", "checkpoint": "tiny_vit_21m_224.in1k", "category": "ATTENTION"}
 ]
