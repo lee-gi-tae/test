@@ -1,5 +1,14 @@
 # ONNX model compatibility check
 
+## 가장 간단한 실행 방법
+
+Windows에서 `run_gpu_check.bat`을 실행하면 가상환경 생성, 고정 GPU 패키지 설치,
+전체 모델 검사와 CSV 생성까지 자동으로 진행됩니다.
+
+```powershell
+.\run_gpu_check.bat
+```
+
 Python 3.12 프로젝트 전용 환경에서 timm 분류 모델을 ONNX로 변환하고 검증합니다.
 
 검증 순서:
