@@ -1,0 +1,9 @@
+[
+  {"model": "ConvNeXt-Tiny", "checkpoint": "convnext_tiny.fb_in1k"},
+  {"model": "ConvNeXt-V2-Tiny", "checkpoint": "convnextv2_tiny.fcmae_ft_in1k"},
+  {"model": "RepViT-M2.3", "checkpoint": "repvit_m2_3.dist_450e_in1k"},
+  {"model": "FastViT-SA36", "checkpoint": "fastvit_sa36.apple_in1k"},
+  {"model": "EfficientViT-L2", "checkpoint": "efficientvit_l2.r224_in1k"},
+  {"model": "MobileNetV4-Conv-Large", "checkpoint": "mobilenetv4_conv_large.e500_r256_in1k"},
+  {"model": "EdgeNeXt-Base", "checkpoint": "edgenext_base.usi_in1k"}
+]

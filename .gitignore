@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+.venv-gpu/
+venv/
+
+# Generated ONNX artifacts and logs
+outputs/
+outputs_gpu/
+*.onnx
+*.onnx.data
+
+# Generated validation results
+results.csv
+results_gpu.csv
+results_gpu_profile.csv
+cpu_nodes_gpu_profile.csv
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
